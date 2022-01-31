@@ -3,7 +3,7 @@
   "productName": "cash-app",
   "version": "1.0.0",
   "description": "My Electron application description",
-  "main": "src/index.js",
+  "main": "src/pages/home/index.js",
   "scripts": {
     "start": "electron-forge start",
     "package": "electron-forge package",
@@ -45,7 +45,10 @@
     }
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0"
+    "bluebird": "^3.7.2",
+    "electron-rebuild": "^3.2.5",
+    "electron-squirrel-startup": "^1.0.0",
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.61",

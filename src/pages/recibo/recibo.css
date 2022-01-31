@@ -1,0 +1,27 @@
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: sans-serif;
+
+    background: #34495e;
+
+}
+
+.apto {
+
+    width: 200px;
+    height: 30px;
+}
+
+.buscar_apto {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.box-recibo {
+    width: 400px;
+    margin: 30px;
+}
